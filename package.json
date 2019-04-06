@@ -1,0 +1,19 @@
+{
+  "name": "babel-transform-class-property-mutators",
+  "version": "0.0.1",
+  "description": "transform class setter/getter define up to prototype directly",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel test/input.js --config-file ./test/babel.config.js -o test/output.js"
+  },
+  "author": "huozhi",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/helper-define-map": "^7.4.0",
+    "@babel/helper-plugin-utils": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3"
+  }
+}
