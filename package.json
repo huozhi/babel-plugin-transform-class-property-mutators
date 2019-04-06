@@ -2,10 +2,14 @@
   "name": "babel-transform-class-property-mutators",
   "version": "0.0.1",
   "description": "transform class setter/getter define up to prototype directly",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "babel test/input.js --config-file ./test/babel.config.js -o test/output.js"
   },
+  "files": [
+    "lib",
+    "*.md"
+  ],
   "author": "huozhi",
   "license": "MIT",
   "dependencies": {
