@@ -4,7 +4,7 @@
   "description": "transform class setter/getter define up to prototype directly",
   "main": "lib/index.js",
   "scripts": {
-    "test": "babel test/input.js --config-file ./test/babel.config.js -o test/output.js"
+    "test": "babel test/input --config-file ./test/babel.config.js -d test/output"
   },
   "files": [
     "lib",
