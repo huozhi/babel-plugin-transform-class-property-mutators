@@ -24,6 +24,10 @@ class A {
     this._x = v
   }
 
+  static get x() {
+    return A._x || 1;
+  }
+
   method() {
     console.log('method')
   }
@@ -37,8 +41,17 @@ class A {
   method() {
     console.log('method');
   }
-
 }
+
+Object.defineProperties(A, {
+  x: {
+    get: function () {
+      return A._x || 1;
+    },
+    configurable: true,
+    enumerable: true
+  }
+})
 
 Object.defineProperties(A.prototype, {
   x: {
