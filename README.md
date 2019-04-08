@@ -1,4 +1,4 @@
-# babel-transform-class-property-mutators
+# babel-plugins-transform-class-property-mutators
 
 ### About
 

@@ -1,5 +1,5 @@
 {
-  "name": "babel-transform-class-property-mutators",
+  "name": "babel-plugins-transform-class-property-mutators",
   "version": "0.0.2",
   "description": "transform class setter/getter define up to prototype directly",
   "main": "lib/index.js",
