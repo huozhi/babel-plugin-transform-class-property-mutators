@@ -13,11 +13,14 @@
   "author": "huozhi",
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.4.3",
     "@babel/helper-define-map": "^7.4.0",
     "@babel/helper-plugin-utils": "^7.0.0"
   },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
   "devDependencies": {
+    "@babel/core": "^7.4.3",
     "@babel/cli": "^7.4.3"
   }
 }
